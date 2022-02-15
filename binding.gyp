@@ -60,13 +60,6 @@
           #     "lib/mac_x64/libndi.4.dylib"
           #   ]
           # }]
-        }],
-        ['OS=="linux"', {
-          'conditions': [
-            ['target_arch=="x86" or target_arch=="x64"', {
-              "libraries": ['-L/lib/x86_64-linux-gnu', '-lndi']
-            }]
-          ]
         }]
       ]
     }
